@@ -92,7 +92,7 @@
             const day = days[now.getDay()];
             const date = now.toLocaleDateString('en-US')
 
-            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds} ${ampm}`;
             document.getElementById('date').textContent = `${day}, ${date}`;
         }
 
